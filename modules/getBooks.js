@@ -8,4 +8,4 @@ const getBooks = () => {
     getBooks
   };
 
-  export default getAllBooks;
+  export default getBooks;
