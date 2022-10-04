@@ -9,8 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log("hhh", "jjj");
     const bookData = AllBooks.getBooks();
     const filteredBooks = bookData.filter((item) => item.id !== id);
-  
-    // eslint-disable-next-line no-use-before-define
     AllBooks.localStorage('books', filteredBooks);
   };
   
@@ -130,3 +128,5 @@ setInterval(() => {
   time.textContent = formatTime(today);
   date.textContent = formatDate(today);
 }, 1000);
+
+const now = DateTime.now();
