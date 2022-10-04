@@ -30,9 +30,7 @@ a {
 .dateTime {
   display: flex;
   justify-content: flex-end;
-  /* width: 98%; */
-  padding-top: 5px;
-  /* height: 20px; */
+  padding: 2em;
 }
 
 .nav {
