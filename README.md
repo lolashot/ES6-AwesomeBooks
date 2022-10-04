@@ -8,25 +8,26 @@
 - JavaScript
 
 ## Live Demo (if available)
-not available yet
-
+https://lolashot.github.io/ES6-AwesomeBooks/
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
-Clone this repo using this URL (link) or download it as a ZIP format from the green button above under the text Code.
+### Prerequisites
 
--npm install 
+### Setup
 
-Usage: inside the project folder looks for the index.html file and open it using your preferred web browser.
+### Install
+
+### Usage
+
+### Run tests
 
 ### Deployment
 
 
 ## Authors
-
-👤 **Author2**
 
 - GitHub: [@lolashot](https://github.com/lolashot)
 
