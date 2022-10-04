@@ -33,13 +33,12 @@ export default class AllBooks {
           <br />
           <div class='remove_book-btn__container'>
           <button onClick='removeBook(${book.id})' class='remove_book-btn'>Remove</button></div>
-          </div><hr>`
+          </div><hr>`,
         )
         .join('');
       booksStore.innerHTML = listOfBooks;
     } else {
-      booksStore.innerHTML =
-        '<span class="text-center"><i> Please Add a Book</i></span>';
+      booksStore.innerHTML = '<span class="text-center"><i> Please Add a Book</i></span>';
     }
   }
 

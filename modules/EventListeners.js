@@ -8,7 +8,7 @@ const EventListeners = () => {
     const bookObject = new AllBooks(
       bookId,
       document.getElementById('title').value,
-      document.getElementById('author').value
+      document.getElementById('author').value,
     );
     AllBooks.addBook(bookObject);
     document.getElementById('title').value = '';
