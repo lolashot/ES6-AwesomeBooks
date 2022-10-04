@@ -1,11 +1,9 @@
 const getBooks = () => {
-   if (JSON.parse(localStorage.getItem('books'))) 
-   {
+  if (JSON.parse(localStorage.getItem('books'))) {
     return JSON.parse(localStorage.getItem('books'));
-   }
-    return [];
-
-  };
+  }
+  return [];
+};
 
 const getAllBooks = {
   getBooks,
