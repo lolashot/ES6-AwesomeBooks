@@ -5,8 +5,4 @@ const getBooks = () => {
   return [];
 };
 
-const getAllBooks = {
-  getBooks,
-};
-
 export default getBooks;
